@@ -1,0 +1,61 @@
+.section {
+    position: relative;
+    font-family: $roboto;
+    font-size: $medium;
+    line-height: 2.8;
+    color: $nickel;
+    margin-bottom: 7%;
+}
+
+.section__fecha {
+    font-family: $playfair;
+}
+
+.section__text {
+    margin-bottom: 5%;
+}
+
+.main__title {
+    height: 100vh;
+    color: $albis;
+    text-align: center;
+    background-image: url(../img/post-image.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-repeat: no-repeat;
+    margin-top: 20%;
+}
+
+.naomi {
+    vertical-align: middle;
+    padding: 5% 0;
+    border-top-color: $nickel;
+    border-top-width: 5px;
+}
+
+.naomi__img {
+    border-radius: 50%;
+    width: 60%;
+    vertical-align: middle;
+}
+
+.naomi__name {
+    font-style: italic;
+    font-family: $playfair;
+    font-size: $x-large;
+    font-weight: $black;
+}
+
+.naomi__mail {
+    color: $fuzzy-wuzzy;
+}
+
+.naomi__text {
+    color: $nickel;
+}
+
+.section__pag {
+    background-color: $platinum;
+    padding: 5% 0;
+    text-align: center;
+}

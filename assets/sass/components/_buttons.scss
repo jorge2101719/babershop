@@ -1,0 +1,21 @@
+ .botones {
+     padding-right: 2%;
+ }
+ 
+ .boton {
+     background-color: #6c6e70;
+
+     &:hover {
+         background-color: $platinum;
+         border: $platinum;
+     }
+ }
+
+ .boton__pag {
+     background-color: $albis;
+
+     &:hover {
+         color: $albis;
+         background-color: $raisin-black;
+     }
+ }
