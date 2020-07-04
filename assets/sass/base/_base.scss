@@ -26,6 +26,10 @@
     margin-top: 20%;
 }
 
+.main__title-text {
+    padding-top: 10%;
+}
+
 .naomi {
     vertical-align: middle;
     padding: 5% 0;
@@ -48,6 +52,10 @@
 
 .naomi__mail {
     color: $fuzzy-wuzzy;
+
+    &:hover {
+        color: $rosa-hispano;
+    }
 }
 
 .naomi__text {
